@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,700;1,200;1,300&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: "Raleway", sans-serif;
+}
+*::selection{
+    background: #ff589e;
+}
+/* Header */
+
+.Box1{
+    margin-top: 30px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px;
+    height: 80px;
+    align-items: center;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+}
+.item-text-header{
+    margin-left: 23px;
+    flex: 1;
+}
+.item-logo-header{
+    margin-left: 30px;
+    width: 27%;
+   
+}
+.header .Box1 ul{
+
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.header .Box1 ul li{
+    padding: 0 20px;
+   
+}
+.header .Box1 ul li:last-child{
+   padding-right: 0;
+}
+.header .Box1 ul li a{
+    font-weight: 500;
+    font-size: 13px;
+    color: #1e1e1e;
+    text-decoration: none;
+}
+.header .Box1 ul li a:hover{
+    color: #ff589e;
+}
+.header .Box1 ul li a.active{
+    color: #ff589e;
+}
+/* End Header */
+
+/* Body1 */
+.body1{
+    overflow: hidden;
+    background-image: url(../images/banner-bg.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 874px;
+    width: auto;
+}
+.Box2{
+    text-align: center;
+    width: 100%;
+
+}
+.text-body1{
+   margin-left: 285px;
+   color: white;
+
+}
+.body1 .text-body1 h1{
+    font-size: 37px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 30px;
+    line-height: 54px;
+}
+.body1 .text-body1 p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.body1 .btn-main1{
+    background-color: #ff589e;;
+}
+/* End Body1 */
+.body2{
+    margin-top: -199px;
+}
+.body2 .item-body2{
+    cursor: pointer;
+    background: white;
+    text-align: center;
+    display: block;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 48px 0 rgb(0 0 0 / 10%);
+    border-radius: 20px;
+}
+.body2 .icon-body2{
+    background: #8261ee;
+    position: relative;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 50%;
+}
+.body2 .text-body2 h5{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.body2 .text-body2 p{
+    margin-bottom: 0;
+}
