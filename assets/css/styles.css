@@ -147,3 +147,15 @@
     margin-bottom: 30px;
 }
 /* end body3 */
+/* body4 */
+.body4{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.body4 .row{
+    align-items: center;
+}
+.image-body4 img{
+    margin-left: 158px;
+}
+/* end body4 */
