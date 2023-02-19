@@ -159,3 +159,92 @@
     margin-left: 158px;
 }
 /* end body4 */
+
+/* 
+body5 */
+.backgroud-body5{
+    min-height: 215px;
+    overflow: hidden;
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.backgroud-body5::before{
+    content: '';
+    position: absolute;
+    background-image: url(../images/work-process-bg.png);
+    width: 140%;
+    height: 140%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    top: -20%;
+    left: -20%;
+}
+.body5 .box-item-body5{
+    text-align: center;
+}
+.body5 .text-body5 p{
+    margin-bottom: 58px;
+    color: #fff;
+    letter-spacing: 0.25px;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 15px;
+}
+.body5 .textbig-body5 h1{
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.25px;
+    margin-bottom: 30px;
+    margin-top: 0;
+    font-size: 28px;
+}
+.body5 .item-icon-body5{
+    display: block;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 2px 48px 0 rgb(0 0 0 / 8%);
+    margin-bottom: 30px;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+}
+.body5 .item-icon-body5::before{
+    content: "";
+    position: absolute;
+    background: white;
+    width: 100%;
+    opacity: 0.15;
+    height: 100%;
+    bottom: -10px;
+    left: 0px;
+    right: -20px;
+    margin: auto;
+    border-radius: 20px
+}
+.body5 .icon-body5 i{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 15px;
+
+}
+.text-item-icon-body5 strong{
+    display: block;
+    font-weight: 400;
+    font-size: 17px;
+    color: #1e1e1e;
+    letter-spacing: 0.25px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.text-item-icon-body5 span{
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    color: #777;
+    letter-spacing: 1.75px;
+}
+
+/* end body5 */
