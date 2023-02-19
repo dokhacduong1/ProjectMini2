@@ -93,6 +93,12 @@
 }
 .body1 .btn-main1{
     background-color: #ff589e;;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+.body1 .btn-main1:hover{
+    background-color: #8261ee;
+    color: white;
 }
 /* End Body1 */
 .body2{
@@ -117,6 +123,10 @@
     margin: auto;
     margin-bottom: 30px;
     border-radius: 50%;
+    transition: all 0.3s ease 0s;
+}
+.body2 .icon-body2:hover{
+    background: #ff589e;
 }
 .body2 .text-body2 h5{
     font-size: 18px;
@@ -209,6 +219,7 @@ body5 */
     position: relative;
     text-align: center;
     padding: 20px;
+    transition: all 0.3s ease 0s;
 }
 .body5 .item-icon-body5::before{
     content: "";
@@ -222,6 +233,9 @@ body5 */
     right: -20px;
     margin: auto;
     border-radius: 20px
+}
+.body5 .item-icon-body5:hover{
+    margin-top: -10px;
 }
 .body5 .icon-body5 i{
     display: block;
@@ -248,3 +262,95 @@ body5 */
 }
 
 /* end body5 */
+
+/* body6 */
+.body6{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.body6 .box-item-body6{
+    text-align: center;
+}
+.body6 .textbig-body6 h2{
+    font-weight: 500;
+    font-size: 28px;
+    color: #1e1e1e;
+    letter-spacing: 1.75px;
+    line-height: 38px;
+    margin-bottom: 20px;
+}
+.body6 .text-body6 p{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.body6 .item-icon-body6{
+    background: #fff;
+    box-shadow: 0 2px 48px 0 rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+.body6 .item-icon-body6 i img{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.body6 .item-icon-body6 p{
+    text-align: left;
+    margin-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 25px;
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 15px;
+    color: #777;
+    letter-spacing: 0.6px;
+    line-height: 26px;
+}
+
+.body6 .user-image-body6{
+    border-radius: 100%;
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+    margin-left: 40px;
+    float: left;
+}
+.body6 .temp-info-body6{
+    float: left;
+    margin-left: 20px;
+    flex: 1;
+    text-align: left;
+    transition: all 0.3s ease 0s;
+
+}
+.body6 .temp-info-body6:hover{
+    float: left;
+    margin-left: 35px;
+    flex: 1;
+    text-align: left;
+
+}
+.body6 .temp-info-body6 h3{
+    display: block;
+    font-weight: 400;
+    font-size: 17px;
+    color: #1e1e1e;
+    letter-spacing: 0.25px;
+    margin-bottom: 5px;
+    
+}
+.body6 .temp-info-body6 span{
+    display: block;
+    font-weight: 400;
+    font-size: 15px;
+    color: #ff589e;
+    letter-spacing: 0.25px;
+}
+.body6 .info-body6{
+    justify-content: center;
+    align-items: center;
+}
+/* end body6 */
