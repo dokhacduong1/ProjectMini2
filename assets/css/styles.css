@@ -128,3 +128,22 @@
 .body2 .text-body2 p{
     margin-bottom: 0;
 }
+
+/* body3 */
+.body3{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.body3 .row{
+    align-items: center;
+}
+.image-body3 img{
+    margin-left: 82px;
+}
+.text-body3 h2{
+    margin-bottom: 30px;
+}
+.textbig-body3 p{
+    margin-bottom: 30px;
+}
+/* end body3 */
