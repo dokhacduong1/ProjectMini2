@@ -470,3 +470,65 @@ body5 */
     background-color: #ff589e;
 }
 /* end body7 */
+/* body8 */
+.body8{
+    overflow: hidden;
+    position: relative;
+}
+.body8::before{
+    content: '';
+    position: absolute;
+    background-image: url(../images/fun-facts-bg.png);
+    width: 140%;
+    height: 140%;
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    top: -20%;
+    left: -20%;
+
+}
+.body8 .item-icon-body8-active,.item-icon-body8-active2{
+    position: relative;
+    height: 340px;
+    width: 100%;
+    float: left;
+}
+.body8 .item-icon-body8-active::after{
+    content: "";
+    position: absolute;
+    background: url(../images/circle-dec.png) center center no-repeat;
+    width: 70%;
+    height: 32px;
+    top:160px;
+    left: 70%;
+    transition: all 0.3s ease 0s;
+}
+.body8 .item-icon-body8-active2::after{
+    top: 140px;
+}
+
+.body8 .item-icon-body8 strong{
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: 0.25px;
+    margin-bottom: 10px;
+    color: #fff;
+    margin-top: 120px;
+    transition: all 0.3s ease 0s;
+}
+.body8 .item-icon-body8 strong:hover{
+    margin-top: 110px;
+}
+.body8 .item-icon-body8 span{
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 0.25px;
+}
+/* end body8 */
