@@ -354,3 +354,119 @@ body5 */
     align-items: center;
 }
 /* end body6 */
+
+/* body7 */
+.body7{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: #f2f2fe;
+}
+.body7 .box-item-body7 h2{
+    font-weight: 500;
+    font-size: 28px;
+    color: #1e1e1e;
+    letter-spacing: 1.75px;
+    line-height: 38px;
+    margin-bottom: 20px;
+}
+.body7 .box-item-body7 p{
+    font-size: 15px;
+    color: #777;
+    margin-bottom: 50px;
+}
+.body7 .row .row{
+    flex: 1;
+}
+.body7 .item-icon-body7{
+    background: #FFFFFF;
+    box-shadow: 0 2px 48px 0 rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding: 30px 0px 40px 0px;
+    text-align: center;
+}
+.body7 .pricing-title{
+    padding-bottom: 10px;
+}
+.body7 .pricing-title h3{
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 0.25px;
+    color: #1e1e1e;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    margin: auto;
+}
+.body7 .pricing-body7{
+    margin-bottom: 40px;
+}
+.body7 .pricing-body7-wrapper{
+    padding-top: 20px;
+    padding-bottom: 13px;
+    background: #8261ee;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+.body7 .pricing-body7 .active1{
+    background-color: #ff589e;
+}
+.body7 .pricing-body7-wrapper .bieutuong{
+    height: 47px;
+    font-weight: 500;
+    font-size: 32px;
+    color: #fff;
+    position: relative;
+    top: -1px;
+}
+.body7 .pricing-body7-wrapper .sotien{
+    font-weight: 500;
+    font-size: 28px;
+    color: #fff;
+}
+.body7 .pricing-body7-wrapper .thang{
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    display: block;
+    letter-spacing: 0.88px;
+}
+.body7 .list-body7{
+    padding: 0;
+    margin: 0;
+}
+
+.body7 .list-body7 li{
+    text-align: center;
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #7a7a7a;
+    letter-spacing: 0.25px;
+    text-decoration: line-through;
+}
+.body7 .list-body7 .active{
+    text-decoration: none;
+}
+.body7 .picing-button{
+    margin-top: 50px;
+}
+.body7 .btn1-body6{
+    font-size: 13px;
+    border-radius: 20px;
+    padding: 12px 20px;
+    background-color: #8261ee;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 0.25px;
+    transition: all 0.3s ease 0s;
+}
+.body7 .btn1-body6:hover{
+    background-color: #ff589e;
+}
+/* end body7 */
