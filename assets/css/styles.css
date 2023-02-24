@@ -832,6 +832,12 @@ body5 */
     }
 }
 @media (max-width: 575.9px){
-
+    .body11 .sosical{
+        padding: 0;
+    }
+    .body11 .sosical li {
+        margin: 0px 5px;
+        display: inline-block;
+    }
 }
 /* end reponsize */
