@@ -997,9 +997,13 @@ body5 */
         z-index: 100;
         transition: all 0.3s ease 0s;
     }
-    .body7 .row{
-        margin-right: -7px;
-        margin-left: -7px;
+    .body7 .row, .body9 .row,.body10 .row{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .body9 .col-lg-3,.body9 .col-md-6{
+        padding-right: 0;
+        padding-left: 0;
     }
 }
 
