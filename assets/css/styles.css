@@ -5,10 +5,7 @@
     transition: all .3s ease-out;
     box-sizing: border-box;
 }
-.row{
-    margin-left: 0;
-    margin-right: 0;
-}
+
 *::selection {
     background: #ff589e;
 }
@@ -865,6 +862,8 @@ body5 */
         overflow-x: hidden;
       
     }
+    
+
     .header1 {
         padding: 0px 15px;
         height: 80px;
@@ -980,17 +979,24 @@ body5 */
     .body11 .sosical {
         padding: 0;
     }
-
+   
     .body11 .sosical li {
         margin: 0px 5px;
         display: inline-block;
+    }
+    .row{
+        margin: 0;
+    }
+    .body10 .col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12{
+        padding-right: 0;
+        padding-left: 0;
     }
     .header1 {
         min-height: 80px;
         position: fixed;
         top: 30px;
-        left: -25px;
-        right: -25px;
+        left: -19px;
+        right: -19px;
         z-index: 100;
         transition: all 0.3s ease 0s;
     }
