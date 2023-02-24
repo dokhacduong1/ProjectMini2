@@ -1005,6 +1005,9 @@ body5 */
         padding-right: 0;
         padding-left: 0;
     }
+    .body9 .item-body9{
+        width: 345px;
+    }
 }
 
 /* end reponsize */
