@@ -15,98 +15,42 @@
 </head>
 
 <body>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,700;1,200;1,300&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-        * {
-            font-family: "Raleway", sans-serif;
-        }
-
-        li {
-            list-style: none;
-        }
-
-        .Box1 {
-            margin-top: 30px;
-            display: flex;
-            justify-content: space-between;
-            background-color: rgb(255, 255, 255);
-            border-radius: 40px;
-            min-height: 80px;
-            width: auto;
-            align-items: center;
-            box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
-        }
-
-        .item-logo-header {
-
-            margin-left: 30px;
-        }
-
-        .item-text-header {
-
-            display: flex;
-            margin-right: 30px;
-            margin-bottom: 0;
-            padding: 0;
-        }
-
-        .header .Box1 ul li {
-            padding: 0 14px;
-
-        }
-
-        .header .Box1 ul li a {
-            font-weight: 500;
-            font-size: 13px;
-            letter-spacing: 1px;
-            color: #1e1e1e;
-            text-decoration: none;
-            height: 40px;
-            line-height: 40px;
-            border: transparent;
-            letter-spacing: 1px;
-        }
-
-        .header .Box1 ul li:last-child {
-            padding-right: 18px;
-        }
-
-        .header .Box1 ul li a:hover {
-            color: #ff589e;
-        }
-
-        .header .Box1 ul li a.active {
-            color: #ff589e;
-        }
-    </style>
-    <section class="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="Box1">
-                        <a class="item-logo-header">
-                            <img src="assets/images/logo.png" alt="">
-                        </a>
-                        <ul class="item-text-header">
-                            <li><a class="active" href="">Home</a> </li>
-                            <li><a href="">About</a></li>
-                            <li><a href="">Work Process</a></li>
-                            <li><a href="">Testimonials</a></li>
-                            <li><a href="">Pricing Table</a></li>
-                            <li><a href="">Blog Entries</a></li>
-                            <li><a href="">Contact Us</a></li>
-                        </ul>
-                        <a class="menu-trigger">
-                            <i class="fa-solid fa-bars"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-    </section>
-
+    <header>
+        <nav>
+          <ul>
+            <li><a href="#section1">Section 1</a></li>
+            <li><a href="#section2">Section 2</a></li>
+            <li><a href="#section3">Section 3</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+      <section class="section1">
+        <h2>Section 1</h2>
+        <p>This is the content of section 1.</p>
+      </section>
+      
+      <section class="section2">
+        <h2>Section 2</h2>
+        <p>This is the content of section 2.</p>
+      </section>
+      
+      <section class="section3">
+        <h2>Section 3</h2>
+        <p>This is the content of section 3.</p>
+      </section>
+      
+      <script>
+        // Xử lý sự kiện khi người dùng nhấn vào liên kết trong header
+        document.querySelectorAll('header a').forEach(anchor => {
+          anchor.addEventListener('click', function (event) {
+            event.preventDefault(); // Ngăn chặn hành vi mặc định khi nhấn vào liên kết
+      
+            const section = document.querySelector(this.getAttribute('href')); // Lấy đối tượng section tương ứng với liên kết được nhấn
+            section.scrollIntoView({behavior: "smooth"}); // Cuộn trang web hay ứng dụng đến vị trí của section đó
+          });
+        });
+      </script>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
