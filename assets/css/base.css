@@ -3,7 +3,7 @@ html {
     transition: scroll-behavior 500ms ease-in-out;
 }
 .header{
-    position: fixed;
+    position: sticky;
     z-index: 100;
     top: 1px;
     left: 0px;
