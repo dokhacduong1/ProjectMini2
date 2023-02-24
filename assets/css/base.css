@@ -2,13 +2,14 @@ html {
     scroll-behavior: smooth;
     transition: scroll-behavior 500ms ease-in-out;
 }
-.header{
-    position: sticky;
-    z-index: 100;
-    top: 1px;
+.header1{
+    min-height: 80px;
+    position: fixed;
+    top: 30px;
     left: 0px;
-    right: 0;
-    height: 100px;
+    right: 0px;
+    z-index: 100;
+    transition: all 0.3s ease 0s;
 
 }
 .btn-main1{
