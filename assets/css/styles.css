@@ -963,13 +963,7 @@ body5 */
     .body9 .box-item-body9 {
         text-align: center;
     }
-    .body9 .img-body9 img{
-        width: 100%;
-    }
-    
-    .body9 .item-body9 .img-body9 {
-        padding: 0 15px;
-    }
+   
     .body10 .box-item-body10 {
         text-align: center;
     }
@@ -1038,6 +1032,13 @@ body5 */
     .body7 div,.body9 div,.body10 div{
         margin: 0;
         padding: 0;
+    }
+    .body9 .img-body9 img{
+        width: 100%;
+    }
+    
+    .body9 .item-body9 .img-body9 {
+        padding: 0 15px;
     }
 
  
