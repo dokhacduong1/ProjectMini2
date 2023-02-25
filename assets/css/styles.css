@@ -742,7 +742,7 @@ body5 */
 }
 
 
-.body10 .info-text-body9 h5 {
+.body10 .info-text-body10 h5 {
     font-weight: 500;
     font-size: 18px;
     color: #1e1e1e;
@@ -751,7 +751,7 @@ body5 */
     margin-bottom: 30px
 }
 
-.body10 .info-text-body9 p {
+.body10 .info-text-body10 p {
     margin-bottom: 28px;
     font-weight: 400;
     font-size: 14px;
@@ -760,7 +760,7 @@ body5 */
     line-height: 26px;
 }
 
-.body10 .info-contact-body9 .form-control {
+.body10 .info-contact-body10 .form-control {
     color: #777;
     font-size: 14px;
     border: 1px solid #eee;
@@ -773,7 +773,7 @@ body5 */
     margin-bottom: 30px;
 }
 
-.body10 .info-contact-body9 .fomr-text-area {
+.body10 .info-contact-body10 .fomr-text-area {
     height: 150px;
     resize: none;
     padding: 20px;
@@ -870,16 +870,17 @@ body5 */
 
 
     .header1 {
-        padding: 0px 15px;
         height: 80px;
         box-shadow: none;
         text-align: center;
         padding: 0px 15px;
-        height: 80px;
-        box-shadow: none;
-        text-align: center;
     }
-
+    .header1 .container{
+        padding: 0;
+    }
+    .header1 .Box1{
+        overflow: hidden;
+    }
     .header1 .Box1 .menu {
         display: block;
     }
@@ -932,7 +933,7 @@ body5 */
         margin-bottom: 60px;
     }
 
-    .body5 .box-item-body5 {
+    .body5 .box-item-icon-body5 {
         padding-left: 15px;
         padding-right: 15px;
     }
@@ -962,9 +963,21 @@ body5 */
     .body9 .box-item-body9 {
         text-align: center;
     }
-
+    .body9 .img-body9 img{
+        width: 100%;
+    }
+    
+    .body9 .item-body9 .img-body9 {
+        padding: 0 15px;
+    }
     .body10 .box-item-body10 {
         text-align: center;
+    }
+    .body10 .info-text-body10{
+        padding: 0 15px;
+    }
+    .body10 .info-contact-body10{
+        padding: 0 15px;
     }
 
     .body10 .textall2 {
@@ -1022,17 +1035,12 @@ body5 */
         margin: 0px 5px;
         display: inline-block;
     }
-
-    .header1 {
-        min-height: 80px;
-        position: fixed;
-        top: 30px;
-        left: -19px;
-        right: -19px;
-        z-index: 100;
-        transition: all 0.3s ease 0s;
+    .body7 div,.body9 div,.body10 div{
+        margin: 0;
+        padding: 0;
     }
 
+ 
     
 }
 
