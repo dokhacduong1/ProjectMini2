@@ -4,6 +4,7 @@ html {
 }
 .header1{
     min-height: 80px;
+    width: 100%;
     position: fixed;
     top: 30px;
     left: 0px;
