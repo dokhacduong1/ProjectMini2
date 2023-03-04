@@ -860,6 +860,9 @@ body5 */
         padding-left: 12px;
         padding-right: 12px;
     }
+    .body9 .item-icon-body9 div{
+        font-size: 12px;
+    }
 }
 
 @media (max-width: 991.9px) {
@@ -867,7 +870,7 @@ body5 */
         overflow-x: hidden;
 
     }
-
+    
 
     .header1 {
         height: 80px;
