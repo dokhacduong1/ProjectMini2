@@ -6,13 +6,17 @@
     box-sizing: border-box;
 }
 
+.header1 .menu-open {}
+
 
 
 
 *::selection {
     background: #ff589e;
 }
-
+.header1 .menu-pc-active{
+    display: none;
+}
 html {
     scroll-behavior: smooth;
     transition: scroll-behavior 500ms ease-in-out;
@@ -68,7 +72,8 @@ html {
     text-decoration: none;
 }
 
-.header1 .menu {
+.header1 .menu-pc,
+.header1 .menu-pc2 {
     position: absolute;
     top: 17px;
     width: 32px;
@@ -860,17 +865,20 @@ body5 */
         padding-left: 12px;
         padding-right: 12px;
     }
-    .body9 .item-icon-body9 div{
+
+    .body9 .item-icon-body9 div {
         font-size: 12px;
     }
 }
-
+@media (max-width: 992px){
+   
+}
 @media (max-width: 991.9px) {
     body {
         overflow-x: hidden;
 
     }
-    
+
 
     .header1 {
         height: 80px;
@@ -878,14 +886,52 @@ body5 */
         text-align: center;
         padding: 0px 15px;
     }
-    .header1 .container{
+
+    .header1 .container {
         padding: 0;
     }
-    .header1 .Box1{
+
+    .header1 .Box1 {
         overflow: hidden;
     }
-    .header1 .Box1 .menu {
+
+    .header1 .menu-pc {
         display: block;
+    }
+    .header1 .Box1 .show-menu-pc2{
+        display: block;
+    }
+
+    .header1 .Box1 .item-text-header-mobile {
+        display: block;
+        padding: 0;
+        margin-top: 80px;
+        float: none;
+        margin-left: 0px;
+        margin-bottom: 0;
+        margin-right: 0px;
+    }
+
+    .header1 .Box1 .item-text-header-mobile li {
+        border-bottom: 1px solid #eee;
+    }
+
+    .header1 .Box1 .item-text-header-mobile .active {
+
+        border-top: 1px solid #eee;
+    }
+
+    .header1 .Box1 .item-text-header-mobile a {
+
+        height: 50px;
+        line-height: 50px;
+        padding: 0px;
+        background: #fff;
+        color: #3B566E;
+    }
+
+    .header1 .Box1 .item-text-header-mobile li:last-child {
+        padding-right: 12px;
     }
 
     .header1 .item-text-header {
@@ -966,14 +1012,16 @@ body5 */
     .body9 .box-item-body9 {
         text-align: center;
     }
-   
+
     .body10 .box-item-body10 {
         text-align: center;
     }
-    .body10 .info-text-body10{
+
+    .body10 .info-text-body10 {
         padding: 0 15px;
     }
-    .body10 .info-contact-body10{
+
+    .body10 .info-contact-body10 {
         padding: 0 15px;
     }
 
@@ -1032,16 +1080,17 @@ body5 */
         margin: 0px 5px;
         display: inline-block;
     }
-    .body9 .img-body9 img{
+
+    .body9 .img-body9 img {
         width: 100%;
     }
-    
+
     .body9 .item-body9 .img-body9 {
         padding: 0 15px;
     }
 
- 
-    
+
+
 }
 
 /* end reponsize */
