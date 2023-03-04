@@ -1,5 +1,5 @@
 // Lấy tất cả các liên kết trong header
-const headerLinks = document.querySelectorAll('.item-text-header a');
+const headerLinks = document.querySelectorAll('.item-text-header ul li .scrol');
 
 headerLinks.forEach(link => {
     link.addEventListener('click', event => {
