@@ -2,6 +2,7 @@ html {
     scroll-behavior: smooth;
     transition: scroll-behavior 500ms ease-in-out;
 }
+
 .header1{
     min-height: 80px;
     width: 100%;
